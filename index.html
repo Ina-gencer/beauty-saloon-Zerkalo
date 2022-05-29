@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>"ЗЕРКАЛО"</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-2 fixed-top" aria-label="Third navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand animOne" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-scissors" viewBox="0 0 16 16">
+        <path d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61 3.5 3.5zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0zm7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"/>
+      </svg>
+      "ЗЕРКАЛО"</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0  f-block ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active animOne" aria-current="page" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+              <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+            </svg>
+            Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link animOne" href="services.html">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link animOne" href="prices.html">Цены</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle animOne" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">О нас</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><a class="dropdown-item" href="our-masters.html">Наши мастера</a></li>
+              <li><a class="dropdown-item" href="vacancies.html">Вакансии</a></li>
+              <li><a class="dropdown-item" href="address.html">Контакты</a></li>
+            </ul>
+          </li>
+        </ul>
+        <span class="navbar-text animOne">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg>
+          +7(925)234-09-12
+        </span>
+      </div>
+    </div>
+  </nav>
+
+<!-- heading -->
+<div class="position-relative overflow-hidden p-3 p-md-2 m-md-2 text-center">
+  <div class="col-md-8 p-lg-5 mx-auto my-4">
+    <h1 class="display-5 fw-normal margin animTwo">Студия парикмахерского искусства "ЗЕРКАЛО"</h1>
+    <p class="lead fw-normal typeText"></p>
+    <div class="ratio ratio-16x9 ">
+      <video autoplay muted loop id="myvideo" playsinline
+       source src="https://cdn.glitch.com/80bc0137-0281-47fd-8d16-f64769f61fc6%2FMakeup.mp4?v=1630871697556" type="video/mp4"></video>
+      </div>
+  </div>
+</div>
+
+
+
+<!-- why -->
+<div class=" pb-4 mt-1 mx-auto text-center">
+  <h1 class="display-5 fw-normal animThree">Почему выбирают нас?</h1>
+</div>
+
+<div class="row align-items-md-stretch px-1">
+  <div class="col-md-7">
+    <div class="h-100 p-5 text-white bg-dark rounded-3 animFour">
+      
+      <p>Ищете профессиональную студию парикмахерского искусства с качественным обслуживанием и за приемлемую цену? Тогда добро пожаловать к нам! </p>
+      <p>Специалисты студии "ЗЕРКАЛО" рады будут видеть Вас! </p>
+      <p> Мы постоянно следим  за новыми тенденциями в индустрии моды и красоты. </p>
+      <p>Наши сотрудники каждые полгода проходят курсы повышения квалификации у лучших мастеров индустрии красоты. Кроме того, мы работаем исключительно на профессиональной косметике высочайшего качества, ведь мы заботимся о Вас!</p>
+    </div>
+  </div>
+  
+  <div class="col-md-5">
+    <div class="h-100 p-1 bg-light border rounded-3 animFive">
+     <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhhaXIlMjBzYWxvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" width="100%">
+    <p>Команда настоящих профессионалов рада видеть Вас в нашей уютной студии!</p>
+    <p>Вкусный ароматный кофе, бесплатный wifi, приятная музыка - всё для вашего комфорта! </p>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<!-- описание -->
+<div class=" pb-4 mt-1 mx-auto text-center">
+  <h1 class="display-5 fw-normal animThree">Спектор наших услуг</h1>
+</div>
+
+<div class="row g-5">
+  <div class="col-md-8">
+
+    <article class="blog-post">
+      <h2 class="blog-post-title ">Стильные стрижки и укладки </h2>
+      <p class="textJustify">Студия парикмахерского искусства "ЗЕРКАЛО" включает только <strong><em>парикмахерские услуги</em></strong> , гарантирует высокое качество исполнения и высокий уровень обслуживания.</p>
+      <hr>
+      <p class="textJustify">Наша студия удивляет своих клиентов красивыми и оригинальными стрижками от настоящих профи. Здесь вас ждёт чудесное преображение, ведь профессиональный уход за вашими волосами — это цель всех здешних мастеров. Весь штат сотрудников — это специалисты, которые сделают целый комплекс услуг на должном уровне.</p>
+      <hr>
+      <p class="textJustify">Деятельность парикмахера предполагает овладение основным перечнем навыков по работе с волосами разного качества. К опытному парикмахеру стоит обратиться не только ради состригания секущихся кончиков, но и на специальную женскую и детскую стрижку. Он поможет подобрать модную форму, которая подойдёт к форме вашего лица; с помощью профессиональных ножниц он добавит объёма и лёгкости причёске и просто завершит ваш образ. Или сделает это, используя свадебную причёску, плетение кос.</p>
+      <h2>Окрашивание волос любой сложности</h2>
+      <p class="textJustify">Мастера выполнят все виды сложных окрашиваний: шатуш, омбре, балаяж, мелирование, микромелирование и Airtouch, а так же рельефное окрашивание.</p>
+      <p class="textJustify">В студии работает мастер международного класса и с опытом работы более 10 лет в индустрии красоты. Теперь вы можете быть абсолютно спокойны за свои волосы.</p>        
+
+      <h2>Лечение, восстановление и преображение волос</h2>
+      <p class="textJustify">Давно не секрет, что красивые ухоженные волосы для любой женщины – это визитная карточка. На сегодняшний день производители в сфере бьюти-маркетинга выпускают профессиональные средства по уходу, позволяющие восстановить структуру поврежденных волос, насытить их питанием и защитить от внешних фактов, негативно влияющих на общее состояние.</p>
+      <p class="textJustify">На сегодняшний день наибольшей популярностью пользуются процедуры по восстановлению волос – ботокс и кератиновое выпрямление. Каждая из этих процедур позволит улучшить внешний вид волос и зарядить жизненной энергией. 
+    </p>
+    <p lass="textJustify">Приходите к нам в студию, и мы Вам откроем секреты красивых, здоровых волос, также поможем подобрать ухаживающие средства для поддержания эффекта "салонных процедур"</p>
+     
+    <br>
+<div class="container">
+    <article class="blog-post">
+<form >
+      <h2 class="blog-post-title text-center contactUs">Напишите нам:</h2>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Адрес Вашей электронной почты</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Ваш текст:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <a class="btn btn-outline-dark" href="mailto:ina_allecto@mail.ru">ОТПРАВИТЬ</a>
+      </form>
+     </article>
+    </div>
+  </div>
+<br>
+  <div class="col-md-4">
+    <div class="position-sticky" style="top: 2rem;">
+      <div class="p-4 mb-3 bg-light rounded">
+        <h4 class="fst-italic">Наши контакты</h4>
+        <p class="mb-0">г. Санкт-Петербург, набережная реки Мойки,18 </p>
+        <p class="mb-0">+7(925)234-09-12, +7(925)124-17-98</p>
+        <ul class="mb-0">Время работы:
+          <li>пн, вт, ср, чт, пт: с 9.00 до 22.00</li>
+          <li>сб,вс: с 9.00 до 20.00 </li>
+        </ul>
+      </div>
+
+      <div class="p-4">
+        <h4 class="fst-italic ">Ищите нас в соцсетях: </h4>
+        <ol class="list-unstyled mb-0">
+          <li class="mb-1"><a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg></a></li>
+          <li class="mb-1"> <a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg></a></li>
+        </ol>
+      </div>
+
+      <div class="p-4">
+        <h4 class="fst-italic">О нас</h4>
+        <ol class="list-unstyled ">
+          <li><a class="text-muted" href="our-masters.html">Наши мастера</a></li>
+          <li><a class="text-muted" href="vacancies.html">Вакансии</a></li>
+          <li><a class="text-muted" href="address.html">Контакты</a></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+
+<!-- footer -->
+<footer class="ps-3 my-md-1 pt-md-1 border-top bg-gray ">
+  <br>
+  <div class="row">
+    <div class="col-12 col-md">
+      <img class="mb-2" src="https://cdn.glitch.com/80bc0137-0281-47fd-8d16-f64769f61fc6%2Fpink-heir.jpg?v=1630871875412" alt="" width="60" height="40">
+      <small class="d-block mb-3 text-muted">© 2017–2021</small>
+    </div>
+    <div class="col-6 col-md">
+      <h6 >Услуги</h6>
+      <ul class="list-unstyled text-small">
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="services.html">Стрижки</a></li>
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="services.html">Окрашивание любой сложности</a></li>
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="services.html">Химическая завивка</a></li>
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="services.html">Наращивание волос</a></li>
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="services.html">Вечерние и свадебные причёски</a></li>
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="services.html">Комплексный уход за волосами</a></li>
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="services.html">Африканские косички</a></li>
+      </ul>
+    </div>
+  
+    <div class="col-6 col-md">
+      <h6 >О нас</h6>
+      <ul class="list-unstyled text-small">
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="our-masters.html">Команда-профессионалов</a></li>
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="vacancies.html">Вакансии</a></li>
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="address.html">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <p class="float-end me-3 "><a class="text-muted" href="#">Вернуться наверх</a></p>  
+</footer>
+  <br>
+<hr> <br>
+<div class="containerAfterword">
+    <h5 class="afterword">Все материалы использованные для создания данного сайта взяты с учебной целью</h5>
+</div>
+  
+  <br>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
